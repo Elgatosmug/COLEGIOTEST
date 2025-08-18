@@ -1,0 +1,89 @@
+
+[
+    {
+
+        "name": "Ajedrez",
+        "logo": "/ajedrez.svg",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos"
+    },
+    {
+        "name": "Atletismo",
+        "logo": "/atletismo.svg",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina1",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos1"
+    },
+    {
+        "logo": "/baloncesto.svg",
+        "name": "Baloncesto",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina2",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos2"
+    },
+    {
+        "logo": "/futbol-sala.svg",
+        "name": "Fútbol sala",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina3",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos3"
+    },
+    {
+        "logo": "/futbol.svg",
+        "name": "Fútbol",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina4",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos4"
+    },
+    {
+        "logo": "/gimnasia artistica.svg",
+        "name": "Gimnasia Artística",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina5",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos5"
+    },
+    {
+        "logo": "/judo.svg",
+        "name": "Judo",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina6",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos6"
+    },
+    {
+        "logo": "/karate.svg",
+        "name": "Karate",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina7",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos7"
+    },
+    {
+        "logo": "/kickboxing.svg",
+        "name": "Kick Boxing",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina8",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos8"
+    },
+    {
+        "logo": "/natacion.svg",
+        "name": "Natación",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina9",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos9"
+    },
+    {
+        "logo": "/taekwondo.svg",
+        "name": "Tae Kon Do",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina10",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos10"
+    },
+    {
+        "logo": "/tenis-mesa.svg",
+        "name": "Tenis de mesa",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina11",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos11"
+    },
+    {
+        "logo": "/triathlon.svg",
+        "name": "Triathlon",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina12",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos12"
+    },
+    {
+        "logo": "/volley.svg",
+        "name": "Volley",
+        "objetivo": "Desarrollar habilidades técnicas, trabajo en equipo y disciplina13",
+        "metodologia": "Entrenamientos prácticos, teoría deportiva, juegos formativos13"
+    }
+
+]

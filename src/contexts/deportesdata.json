@@ -1,0 +1,1365 @@
+[
+  {
+    "id": "natacion",
+    "deporte": "NATACIÓN\nOficial\nDamas - Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "Escolar",
+        "fecha": "Viernes 26 Septiembre"
+      },
+      {
+        "categoria": "Colegial",
+        "fecha": "Jueves 16 de octubre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Escolar",
+        "categorias": ["Mini 12", "Pre-Mini 10", "Micro 8"]
+      },
+      {
+        "categoria": "Colegial",
+        "categorias": ["Superior", "Intermedia"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Escolar",
+        "reunion": "Viernes 26 Septiembre"
+      },
+      {
+        "categoria": "Colegial",
+        "reunion": "Jueves 16 de octubre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Escolar",
+        "fecha": "Lunes 6 - Jueves 9 Octubre\n(Mañanas)"
+      },
+      {
+        "categoria": "Colegial",
+        "fecha": "Martes 21 - Viernes 24 Octubre\n(Mañanas)"
+      }
+    ]
+  },
+  {
+    "id": "triatlon",
+    "deporte": "TRIATLÓN\n\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": "Lunes 25 de Agosto",
+    "categoria": [
+      "Superior 15 - 18",
+      "Inferior 12 - 14",
+      "Mini 12",
+      "Pre-mini 10"
+    ],
+    "reunion": "Lunes 25 de Agosto",
+    "fecha": "Viernes 29 - Sábado 30 \n de Agosto"
+  },
+  {
+    "id": "ajedrez",
+    "deporte": "AJEDREZ\nPresencial\nDamas - Varones\nIndividual y\npor equipos",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "Escolar",
+        "fecha": "Lunes 10 Noviembre"
+      },
+      {
+        "categoria": "Colegial",
+        "fecha": "Lunes 1 Diciembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Escolar",
+        "categorias": ["Mini 12", "Pre-mini 10", "Micro 8", "Baby 6"]
+      },
+      {
+        "categoria": "Colegial",
+        "categorias": [
+          "Superior 18",
+          "Intermedia 16",
+          "Inferior 14",
+          "Infantil 12"
+        ]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Escolar",
+        "reunion": "Lunes 10 Noviembre"
+      },
+      {
+        "categoria": "Colegial",
+        "reunion": "Lunes 1 Diciembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Escolar",
+        "fecha": "Viernes 14\nSábado 15 y Domingo 16\nde Noviembre"
+      },
+      {
+        "categoria": "Colegial",
+        "fecha": "Viernes 5\nSábado 6 y Domingo 7\nde Diciembre"
+      }
+    ]
+  },
+  {
+    "id": "basquet-3x3",
+    "deporte": "BASQUET\n3 x 3\nDamas - Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Viernes 30 de Mayo"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 15 de Agosto"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 24 Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 28 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior 18",
+        "categorias": ["Superior 18"]
+      },
+      {
+        "categoria": "Intermedia 16",
+        "categorias": ["Intermedia 16"]
+      },
+      {
+        "categoria": "Infantil 12",
+        "categorias": ["Infantil 12"]
+      },
+      {
+        "categoria": "Pre-inferior 13",
+        "categorias": ["Pre-inferior 13"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior 18",
+        "reunion": "Viernes 30 de Mayo"
+      },
+      {
+        "categoria": "Intermedia 16",
+        "reunion": "Viernes 15 de Agosto"
+      },
+      {
+        "categoria": "Infantil 12",
+        "reunion": "Viernes 24 Octubre"
+      },
+      {
+        "categoria": "Pre-inferior 13",
+        "reunion": "Viernes 28 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior 18",
+        "fecha": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "Intermedia 16",
+        "fecha": "Martes 19 de Agosto"
+      },
+      {
+        "categoria": "Infantil 12",
+        "fecha": "Martes 28 de Octubre"
+      },
+      {
+        "categoria": "Pre-inferior 13",
+        "fecha": "Martes 2 de Diciembre"
+      }
+    ]
+  },
+  {
+    "id": "basquetbol-5x5",
+    "deporte": "BASQUETBOL\n5 x 5\nDamas - Varones\nIntercolegial",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 19 de Agosto"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 28 de Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 2 Diciembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior 18",
+        "categorias": ["Superior 18"]
+      },
+      {
+        "categoria": "Intermedia 16",
+        "categorias": ["Intermedia 16"]
+      },
+      {
+        "categoria": "Infantil 12",
+        "categorias": ["Infantil 12"]
+      },
+      {
+        "categoria": "Pre-inferior 13",
+        "categorias": ["Pre-inferior 13"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior 18",
+        "reunion": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "Intermedia 16",
+        "reunion": "Martes 19 de Agosto"
+      },
+      {
+        "categoria": "Infantil 12",
+        "reunion": "Martes 28 de Octubre"
+      },
+      {
+        "categoria": "Pre-inferior 13",
+        "reunion": "Martes 2 Diciembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior 18",
+        "fecha": "Lunes 9 de Junio"
+      },
+      {
+        "categoria": "Intermedia 16",
+        "fecha": "Lunes 25 de Agosto"
+      },
+      {
+        "categoria": "Infantil 12",
+        "fecha": "Jueves 6 de Noviembre"
+      },
+      {
+        "categoria": "Pre-inferior 13",
+        "fecha": "Lunes 8 de Diciembre"
+      }
+    ]
+  },
+  {
+    "id": "mini-basquet",
+    "deporte": "MINI - BASQUET\n5 x 5\nNiñas - Varones\nEscolar",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Lunes 30 de Junio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 12 de Agosto"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 27 de Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 1 Diciembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "MINI 12",
+        "categorias": ["MINI 12"]
+      },
+      {
+        "categoria": "Pre-mini 10",
+        "categorias": ["Pre-mini 10"]
+      },
+      {
+        "categoria": "Micro 8",
+        "categorias": ["Micro 8"]
+      },
+      {
+        "categoria": "Baby 6",
+        "categorias": ["Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "MINI 12",
+        "reunion": "Lunes 30 de Junio"
+      },
+      {
+        "categoria": "Pre-mini 10",
+        "reunion": "Martes 12 de Agosto"
+      },
+      {
+        "categoria": "Micro 8",
+        "reunion": "Lunes 27 de Octubre"
+      },
+      {
+        "categoria": "Baby 6",
+        "reunion": "Lunes 1 Diciembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "MINI 12",
+        "fecha": "Viernes 4 de Julio"
+      },
+      {
+        "categoria": "Pre-mini 10",
+        "fecha": "Viernes 15 de Agosto"
+      },
+      {
+        "categoria": "Micro 8",
+        "fecha": "Viernes 31 de Octubre"
+      },
+      {
+        "categoria": "Baby 6",
+        "fecha": "Viernes 5 de Diciembre"
+      }
+    ]
+  },
+  {
+    "id": "atletismo-festival-lanzamientos",
+    "deporte": "ATLETISMO\nFestival Abierto\nde Lanzamientos\nEscolar y Colegial",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 13 de Mayo"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 13 de Mayo"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "MINI 12",
+        "categorias": [
+          "4 Categorías \n Superior - Inferior \n Intermedio - Infantil"
+        ]
+      },
+      {
+        "categoria": "MINI 12",
+        "categorias": ["Mini 12 \n Pre-mini 10 \n Micro 8 - Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "4 categorías",
+        "reunion": "Martes 13 de Mayo"
+      },
+      {
+        "categoria": "Escolar",
+        "reunion": "Martes 13 de Mayo"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "4 categorías",
+        "fecha": "Viernes 16 de Mayo"
+      },
+      {
+        "categoria": "Escolar",
+        "fecha": "Jueves 15 de Mayo"
+      }
+    ]
+  },
+  {
+    "id": "atletismo-festival-saltos",
+    "deporte": "ATLETISMO\nFestival Abierto\nde Saltos\nEscolar y Colegial",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 27 de Mayo"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 27 de Mayo"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "MINI 12",
+        "categorias": [
+          "4 Categorías \n Superior - Inferior \n Intermedio - Infantil"
+        ]
+      },
+      {
+        "categoria": "MINI 12",
+        "categorias": ["Mini 12 \n Pre-mini 10 \n Micro 8 - Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "4 categorías",
+        "reunion": "Martes 27 de Mayo"
+      },
+      {
+        "categoria": "Escolar",
+        "reunion": "Martes 27 de Mayo"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "4 categorías",
+        "fecha": "Viernes 30 de Mayo"
+      },
+      {
+        "categoria": "Escolar",
+        "fecha": "Jueves 29 de Mayo"
+      }
+    ]
+  },
+  {
+    "id": "atletismo-festival-postas",
+    "deporte": "ATLETISMO\nFestival Abierto\nde Postas\nEscolar y Colegial",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 17 de Junio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 24 de Junio"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "MINI 12",
+        "categorias": [
+          "4 Categorías \n Superior - Inferior \n Intermedio - Infantil"
+        ]
+      },
+      {
+        "categoria": "MINI 12",
+        "categorias": ["Mini 12 \n Pre-mini 10 \n Micro 8 - Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "4 categorías",
+        "reunion": "Martes 17 de Junio"
+      },
+      {
+        "categoria": "Escolar",
+        "reunion": "Martes 24 de Junio"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "4 categorías",
+        "fecha": "Viernes 20 de Junio"
+      },
+      {
+        "categoria": "Escolar",
+        "fecha": "Viernes 27 de Junio"
+      }
+    ]
+  },
+  {
+    "id": "atletismo-estudiantil-fundacion",
+    "deporte": "ATLETISMO\nAbierto Estudiantil:\n\"Fundación de\nGuayaquil\"\nDamas - Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 8 de Julio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 15 de Julio"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior",
+        "categorias": ["Superior:\n15 a 18 años", "Inferior:\n12 a 14 años"]
+      },
+      {
+        "categoria": "Escolar",
+        "categorias": ["Mini 12", "Pre-mini 10", "Micro 8", "Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior",
+        "reunion": "Martes 8 de Julio"
+      },
+      {
+        "categoria": "Escolar",
+        "reunion": "Martes 15 de Julio"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior",
+        "fecha": "Viernes 11 de Julio"
+      },
+      {
+        "categoria": "Escolar",
+        "fecha": "Viernes 18 de Julio"
+      }
+    ]
+  },
+  {
+    "id": "atletismo-novatos",
+    "deporte": "ATLETISMO\nNovatos\nDamas - Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Viernes 8 de Agosto"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 15 de Agosto"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior",
+        "categorias": [
+          "Superior 18",
+          "Intermedia 16",
+          "Inferior 14",
+          "Infantil 12"
+        ]
+      },
+      {
+        "categoria": "Escolar",
+        "categorias": ["Mini 12", "Pre-mini 10", "Micro 8", "Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior",
+        "reunion": "Viernes 8 de Agosto"
+      },
+      {
+        "categoria": "Escolar",
+        "reunion": "Viernes 15 de agosto"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior",
+        "fecha": "Miércoles 13 al viernes 15 de agosto"
+      },
+      {
+        "categoria": "Escolar",
+        "fecha": "Miércoles 27 al viernes 29 de agosto"
+      }
+    ]
+  },
+  {
+    "id": "atletismo-oficial",
+    "deporte": "ATLETISMO\nOficial\nDamas - Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Viernes 3 Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 31 Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 21 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Colegial",
+        "categorias": ["Superior 18", "Inferior 14"]
+      },
+      {
+        "categoria": "Intermedia",
+        "categorias": ["Intermedia 16", "Infantil 12"]
+      },
+      {
+        "categoria": "Escolar",
+        "categorias": ["Mini 12", "Pre-mini 11", "Micro 8", "Baby 6"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Colegial",
+        "reunion": "Sábado 11 Octubre\n10h00\nOficinas Federación"
+      },
+      {
+        "categoria": "Intermedia",
+        "reunion": "Sábado 8 Noviembre\n10h00\nOficinas Federación"
+      },
+      {
+        "categoria": "Escolar",
+        "reunion": "Sábado 29 Noviembre\n10h00\nOficinas Federación"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Colegial",
+        "fecha": "Miércoles 15 al Viernes 17\nde Octubre"
+      },
+      {
+        "categoria": "Intermedia",
+        "fecha": "Miércoles 12 al Viernes 14\nde Noviembre"
+      },
+      {
+        "categoria": "Escolar",
+        "fecha": "Diciembre:\nMiércoles 3: Baby 6 y Micro 8\nJueves 4: Pre-mini\nViernes 5: Mini"
+      }
+    ]
+  },
+
+  {
+    "id": "voleibol-playa-estudiantil",
+    "deporte": "VOLEIBOL PLAYA\nDamas-Varones\nEstudiantil",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 27 de Mayo"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 27 de Mayo"
+      },
+      {
+        "categoria": " ",
+        "fecha": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 3 de Junio"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Supe 15 - 18",
+        "categorias": ["Superior 15 - 18"]
+      },
+      {
+        "categoria": "Inferior 14",
+        "categorias": ["Inferior 14"]
+      },
+      {
+        "categoria": "Infantil 12",
+        "categorias": ["Infantil 12"]
+      },
+      {
+        "categoria": "Pre - mini 10",
+        "categorias": ["Pre - mini 10"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Supe 15 - 18",
+        "reunion": "Martes 27 de Mayo"
+      },
+      {
+        "categoria": "Inferior 14",
+        "reunion": "Martes 27 de Mayo"
+      },
+      {
+        "categoria": "Infantil 12",
+        "reunion": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "Pre - mini 10",
+        "reunion": "Martes 3 de Junio"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Supe 15 - 18",
+        "fecha": "Viernes 30 y Sábado 31"
+      },
+      {
+        "categoria": "Inferior 14",
+        "fecha": "Viernes 30 y Sábado 31"
+      },
+      {
+        "categoria": "Infantil 12",
+        "fecha": "Viernes 6 y Sábado 7"
+      },
+      {
+        "categoria": "Pre - mini 10",
+        "fecha": "Viernes 6 y Sábado 7"
+      }
+    ]
+  },
+  {
+    "id": "voleibol-sala",
+    "deporte": "VOLEIBOL SALA\nDamas - Varones\nInter-colegial",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 7 de Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 18 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior",
+        "categorias": ["Superior"]
+      },
+      {
+        "categoria": "Intermedia",
+        "categorias": ["Intermedia"]
+      },
+      {
+        "categoria": "Infantil",
+        "categorias": ["Infantil"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior",
+        "reunion": "Martes 3 de Junio"
+      },
+      {
+        "categoria": "Intermedia",
+        "reunion": "Martes 7 de Octubre"
+      },
+      {
+        "categoria": "Infantil",
+        "reunion": "Martes 18 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior",
+        "fecha": "Lunes 9 de Junio"
+      },
+      {
+        "categoria": "Intermedia",
+        "fecha": "Martes 14 de Octubre"
+      },
+      {
+        "categoria": "Infantil",
+        "fecha": "Lunes 24 de Noviembre"
+      }
+    ]
+  },
+  {
+    "id": "mini-voleibol",
+    "deporte": "MINI - VOLEIBOL\nNiñas - Varones\nEscolar",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Lunes 14 de Julio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 13 de Octubre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Mini 12",
+        "categorias": ["Mini 12"]
+      },
+      {
+        "categoria": "Pre-mini 10",
+        "categorias": ["Pre-mini 10"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Mini 12",
+        "reunion": "Lunes 14 de Julio"
+      },
+      {
+        "categoria": "Pre-mini 10",
+        "reunion": "Lunes 13 de Octubre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Mini 12",
+        "fecha": "Viernes 18 de Julio"
+      },
+      {
+        "categoria": "Pre-mini 10",
+        "fecha": "Lunes 20 de Octubre"
+      }
+    ]
+  },
+  {
+    "id": "voleibol-playa-inter-escolar",
+    "deporte": "VOLEIBOL PLAYA\nDamas-Varones\nInter-colegial\ny Escolar",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 2 Diciembre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 2 Diciembre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 9 Diciembre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 9 Diciembre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 16 Diciembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior 18",
+        "categorias": ["Superior 18"]
+      },
+      {
+        "categoria": "Inferior 14",
+        "categorias": ["Inferior 14"]
+      },
+      {
+        "categoria": "Intermedia 16",
+        "categorias": ["Intermedia 16"]
+      },
+      {
+        "categoria": "Infantil 12",
+        "categorias": ["Infantil 12"]
+      },
+      {
+        "categoria": "Pre-Mini 10",
+        "categorias": ["Pre-Mini 10"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior 18",
+        "reunion": "Martes 2 Diciembre"
+      },
+      {
+        "categoria": "Inferior 14",
+        "reunion": "Martes 2 Diciembre"
+      },
+      {
+        "categoria": "Intermedia 16",
+        "reunion": "Martes 9 Diciembre"
+      },
+      {
+        "categoria": "Infantil 12",
+        "reunion": "Martes 9 Diciembre"
+      },
+      {
+        "categoria": "Pre-Mini 10",
+        "reunion": "Martes 16 Diciembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior 18",
+        "fecha": "Viernes 5 de Diciembre"
+      },
+      {
+        "categoria": "Inferior 14",
+        "fecha": "Sábado 6 de Diciembre"
+      },
+      {
+        "categoria": "Intermedia 16",
+        "fecha": "Viernes 12 de Diciembre"
+      },
+      {
+        "categoria": "Infantil 12",
+        "fecha": "Sábado 13 de Diciembre"
+      },
+      {
+        "categoria": "Pre-Mini 10",
+        "fecha": "Viernes 19 de Diciembre"
+      }
+    ]
+  },
+  {
+    "id": "futsal-5",
+    "deporte": "FUTSAL 5\nDamas - Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Viernes 11 de Julio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 6 de Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 7 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Intermedia/Pre-Inferior",
+        "categorias": "Intermedia"
+      },
+      {
+        "categoria": "Inferior",
+        "categorias": "Inferior"
+      },
+      {
+        "categoria": "Superior",
+        "categorias": "Superior"
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Intermedia/Pre-Inferior",
+        "reunion": "Viernes 11 de Julio"
+      },
+      {
+        "categoria": "Inferior",
+        "reunion": "Lunes 6 de Octubre"
+      },
+      {
+        "categoria": "Superior",
+        "reunion": "Viernes 7 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Intermedia/Pre-Inferior",
+        "fecha": "Viernes 18 de Julio"
+      },
+      {
+        "categoria": "Inferior",
+        "fecha": "Lunes 13 de Octubre"
+      },
+      {
+        "categoria": "Superior",
+        "fecha": "Viernes 14 Noviembre"
+      }
+    ]
+  },
+  {
+    "id": "futbol-7",
+    "deporte": "FUTBOL 7\nVarones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Viernes 8 de Agosto"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 17 Octubre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Micro 8/Baby 6",
+        "categorias": "Micro 8"
+      },
+      {
+        "categoria": "Niñas Escolar",
+        "categorias": "Baby 6"
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Micro 8/Baby 6",
+        "reunion": "Viernes 8 de Agosto"
+      },
+      {
+        "categoria": "Niñas Escolar",
+        "reunion": "Viernes 17 Octubre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Micro 8/Baby 6",
+        "fecha": "Viernes 15 de Agosto"
+      },
+      {
+        "categoria": "Niñas Escolar",
+        "fecha": "Viernes 24 Octubre"
+      }
+    ]
+  },
+  {
+    "id": "futbol-9",
+    "deporte": "FUTBOL 9\nVarones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Lunes 6 de Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 10 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Pre-mini 10",
+        "categorias": ["Pre-mini 10"]
+      },
+      {
+        "categoria": "Infantil/Inferior Damas",
+        "categorias": "Infantil"
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Pre-mini 10",
+        "reunion": "Lunes 6 de Octubre"
+      },
+      {
+        "categoria": "Infantil/Inferior Damas",
+        "reunion": "Lunes 10 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Pre-mini 10",
+        "fecha": "Miércoles 13 Octubre"
+      },
+      {
+        "categoria": "Infantil/Inferior Damas",
+        "fecha": "Viernes 14 Noviembre"
+      }
+    ]
+  },
+  {
+    "id": "futbol-11",
+    "deporte": "FUTBOL 11\nVarones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Viernes 30 de Mayo"
+      },
+      {
+        "categoria": "",
+        "fecha": "Viernes 18 de Julio"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 4 de Agosto"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 29 Septiembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior (V)",
+        "categorias": ["Superior (V)"]
+      },
+      {
+        "categoria": "Superior Dam",
+        "categorias": ["Inferior"]
+      },
+      {
+        "categoria": "Inferior",
+        "categorias": ["Mini Escolar"]
+      },
+      {
+        "categoria": "Mini Escolar/Intermedia",
+        "categorias": ["Intermedia"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior (V)",
+        "reunion": "Viernes 30 de Mayo"
+      },
+      {
+        "categoria": "Superior Dam",
+        "reunion": "Viernes 18 de Julio"
+      },
+      {
+        "categoria": "Inferior",
+        "reunion": "Martes 4 de Agosto"
+      },
+      {
+        "categoria": "Mini Escolar/Intermedia",
+        "reunion": "Lunes 29 Septiembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior (V)",
+        "fecha": "Viernes 6 de Junio"
+      },
+      {
+        "categoria": "Superior Dam",
+        "fecha": "Viernes 22 de Julio"
+      },
+      {
+        "categoria": "Inferior",
+        "fecha": "Viernes 8 de Agosto"
+      },
+      {
+        "categoria": "Mini Escolar/Intermedia",
+        "fecha": "Lunes 6 de Octubre"
+      }
+    ]
+  },
+  {
+    "id": "gimnasia-artistica",
+    "deporte": "GIMNASIA\nARTISTICA\n\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Martes 11 Noviembre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Martes 18 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior/Inferior",
+        "categorias": ["Superior: 15 - 18 años", "Inferior: 12 - 14 años"]
+      },
+      {
+        "categoria": "Mini 12/Pre-mini 10/Micro 8",
+        "categorias": ["Mini 12", "Pre-mini 10", "Micro 8"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior/Inferior",
+        "reunion": "Martes 11 Noviembre"
+      },
+      {
+        "categoria": "Mini 12/Pre-mini 10/Micro 8",
+        "reunion": "Martes 18 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior/Inferior",
+        "fecha": "Sábado 15 Noviembre"
+      },
+      {
+        "categoria": "Mini 12/Pre-mini 10/Micro 8",
+        "fecha": "Sábado 22 Noviembre"
+      }
+    ]
+  },
+  {
+    "id": "tenis-mesa",
+    "deporte": "TENIS DE MESA\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Lunes 13 de Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 10 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior 18 (15 - 18 años)/Mini 12",
+        "categorias": ["Superior 18 (15 - 18 años)"]
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "categorias": ["Pre-mini 10", "Micro 8", "Mini 12"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior 18 (15 - 18 años)/Mini 12",
+        "reunion": "Lunes 13 de Octubre"
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "reunion": "Lunes 10 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior 18 (15 - 18 años)/Mini 12",
+        "fecha": "22 - 23 - 24 de Octubre"
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "fecha": "19 - 20 - 21 Noviembre"
+      }
+    ]
+  },
+  {
+    "id": "taekwondo",
+    "deporte": "TAE KWON DO\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Lunes 10 Noviembre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 10 Noviembre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior/Inferior/Mini 12",
+        "categorias": ["Superior 15 - 18 años", "Inferior 12 - 14 años"]
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "categorias": ["Pre-mini 10", "Micro 8", "Mini 12"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior/Inferior/Mini 12",
+        "reunion": "Lunes 10 Noviembre"
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "reunion": "Lunes 10 Noviembre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior/Inferior/Mini 12",
+        "fecha": "Sábado 15 Noviembre"
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "fecha": "Domingo 17 Noviembre"
+      }
+    ]
+  },
+  {
+    "id": "karate-do",
+    "deporte": "KARATE DO\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": "Viernes 28 Noviembre",
+    "categoria": [
+      {
+        "categoria": "Superior/Inferior/Mini 12",
+        "categorias": ["Superior 15 - 18 años", "Inferior 12 - 14 años"]
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "categorias": ["Pre-mini 10", "Micro 8", "Mini 12"]
+      }
+    ],
+    "reunion": "Viernes 28 Noviembre",
+    "fecha": [
+      {
+        "categoria": "Superior/Inferior/Mini 12",
+        "fecha": "Sábado 6 Diciembre"
+      },
+      {
+        "categoria": "Pre-mini 10/Micro 8",
+        "fecha": "Domingo 7 Diciembre"
+      }
+    ]
+  },
+  {
+    "id": "judo",
+    "deporte": "JUDO\n\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": [
+      {
+        "categoria": "",
+        "fecha": "Lunes 13 Octubre"
+      },
+      {
+        "categoria": "",
+        "fecha": "Lunes 13 Octubre"
+      }
+    ],
+    "categoria": [
+      {
+        "categoria": "Superior 15 - 18 años",
+        "categorias": ["Superior 15 - 18 años"]
+      },
+      {
+        "categoria": "Mini 12/Pre-mini 10/Micro 8",
+        "categorias": ["Mini 12", "Pre-mini 10", "Micro 8"]
+      }
+    ],
+    "reunion": [
+      {
+        "categoria": "Superior 15 - 18 años",
+        "reunion": "Lunes 13 Octubre"
+      },
+      {
+        "categoria": "Mini 12/Pre-mini 10/Micro 8",
+        "reunion": "Lunes 13 Octubre"
+      }
+    ],
+    "fecha": [
+      {
+        "categoria": "Superior 15 - 18 años",
+        "fecha": "Sábado 18 de Octubre"
+      },
+      {
+        "categoria": "Mini 12/Pre-mini 10/Micro 8",
+        "fecha": "Domingo 20 de Octubre"
+      }
+    ]
+  },
+  {
+    "id": "kick-boxing",
+    "deporte": "KICK BOXING\n\nDamas-Varones",
+    "congresillo": "Jueves 1 de Mayo\n20h30 vía Zoom",
+    "cierre": "Lunes 20 de Octubre",
+    "categoria": [
+      "Superior 15-18",
+      "Inferior 12 - 14",
+      "Mini 12",
+      "Pre-mini 10"
+    ],
+    "reunion": "Lunes 20 de Octubre",
+    "fecha": "Sábado 25 de Octubre"
+  }
+]
