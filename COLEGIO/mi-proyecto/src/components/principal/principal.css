@@ -1,0 +1,51 @@
+:root {
+  --principal-background: #181c23;
+  --principal-foreground: #f8fafc;
+  --principal-primary: #9db7db;
+  --principal-card: #23272f;
+  --principal-card-foreground: #f8fafc;
+  --principal-accent: #23272f;
+  --principal-muted-foreground: #a0aec0;
+  --principal-border: #2d3748;
+}
+
+.principal-theme {
+  background-color: var(--principal-background);
+  color: var(--principal-foreground);
+}
+
+.principal-theme .text-foreground {
+  color: var(--principal-foreground) !important;
+}
+.principal-theme .text-primary {
+  color: var(--principal-primary) !important;
+}
+.principal-theme .bg-background {
+  background-color: var(--principal-background) !important;
+}
+.principal-theme .bg-card {
+  background-color: var(--principal-card) !important;
+}
+.principal-theme .border-border {
+  border-color: var(--principal-border) !important;
+}
+.principal-theme .text-muted-foreground {
+  color: var(--principal-muted-foreground) !important;
+}
+.principal-theme .bg-primary {
+  background-color: var(--principal-primary) !important;
+}
+.principal-theme .bg-accent {
+  background-color: var(--principal-accent) !important;
+}
+
+/* Hovers para los botones principales */
+.principal-theme .hover\:bg-primary\/80:hover {
+  background-color: #7b9cb7 !important;
+}
+.principal-theme .hover\:bg-primary\/90:hover {
+  background-color: #996a5a !important;
+}
+.principal-theme .hover\:bg-primary\/10:hover {
+  background-color: #e6eaf3 !important;
+}
