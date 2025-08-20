@@ -1,4 +1,28 @@
-import { VALIDATION_CONFIG, SANITIZATION_CONFIG, SECURITY_CONFIG } from './config.js'
+import { VALIDATION_CONFIG, SECURITY_CONFIG } from './config.js'
+
+// Configuración de sanitización (definida localmente)
+const SANITIZATION_CONFIG = {
+  HTML_TAGS: /[<>]/g,
+  SQL_DANGEROUS: /['";]/g,
+  SQL_COMMENTS: /--/g,
+  SQL_MULTILINE_COMMENTS: /\/\*/g,
+  SQL_MULTILINE_COMMENTS_END: /\*\//g,
+  NON_DIGITS: /\D/g
+}
+
+// Configuración de regex para contraseñas
+const PASSWORD_REGEX = {
+  UPPERCASE: /[A-Z]/,
+  LOWERCASE: /[a-z]/,
+  NUMBERS: /\d/,
+  SPECIAL_CHARS: /[!@#$%^&*(),.?":{}|<>]/
+}
+
+// Configuración de cédula ecuatoriana
+const CEDULA_CONFIG = {
+  PROVINCE_RANGE: { MIN: 1, MAX: 24 },
+  COEFFICIENTS: [2, 1, 2, 1, 2, 1, 2, 1, 2]
+}
 
 // Roles válidos (inmutable)
 const VALID_ROLES = Object.freeze(['estudiante', 'representante', 'profesor', 'administrador'])
@@ -19,9 +43,10 @@ export const validators = {
       }
     }
     
-    const hasUpperCase = VALIDATION_CONFIG.PASSWORD_REGEX.UPPERCASE.test(password)
-    const hasLowerCase = VALIDATION_CONFIG.PASSWORD_REGEX.LOWERCASE.test(password)
-    const hasNumbers = VALIDATION_CONFIG.PASSWORD_REGEX.NUMBERS.test(password)
+    const hasUpperCase = PASSWORD_REGEX.UPPERCASE.test(password)
+    const hasLowerCase = PASSWORD_REGEX.LOWERCASE.test(password)
+    const hasNumbers = PASSWORD_REGEX.NUMBERS.test(password)
+    const hasSpecialChars = PASSWORD_REGEX.SPECIAL_CHARS.test(password)
     
     if (!hasUpperCase) return { 
       valid: false, 
@@ -35,8 +60,11 @@ export const validators = {
       valid: false, 
       message: 'La contraseña debe contener al menos un número' 
     }
+    if (!hasSpecialChars) return { 
+      valid: false, 
+      message: 'La contraseña debe contener al menos un carácter especial' 
+    }
 
-    
     return { valid: true }
   },
 
@@ -47,13 +75,13 @@ export const validators = {
     const digits = cedula.split('').map(Number)
     const province = parseInt(cedula.substring(0, 2))
     
-    if (province < VALIDATION_CONFIG.PROVINCE_RANGE.MIN || 
-        province > VALIDATION_CONFIG.PROVINCE_RANGE.MAX) return false
+    if (province < CEDULA_CONFIG.PROVINCE_RANGE.MIN || 
+        province > CEDULA_CONFIG.PROVINCE_RANGE.MAX) return false
     
     let sum = 0
     
     for (let i = 0; i < 9; i++) {
-      let result = digits[i] * VALIDATION_CONFIG.CEDULA_COEFFICIENTS[i]
+      let result = digits[i] * CEDULA_CONFIG.COEFFICIENTS[i]
       if (result > 9) result -= 9
       sum += result
     }
@@ -91,7 +119,9 @@ export const validators = {
   isValidUsername: (username) => {
     if (!username || typeof username !== 'string') return false
     const sanitized = validators.sanitizeInput(username)
-    return sanitized.length >= 3 && sanitized.length <= 50
+    return sanitized.length >= VALIDATION_CONFIG.NAME_MIN_LENGTH && 
+           sanitized.length <= VALIDATION_CONFIG.NAME_MAX_LENGTH &&
+           VALIDATION_CONFIG.NAME_REGEX.test(sanitized)
   },
 
   // Validar que el rol sea válido (más robusto)
@@ -100,31 +130,32 @@ export const validators = {
     return VALID_ROLES.includes(role.toLowerCase())
   },
 
-  // Obtener roles válidos (solo lectura)
-  getValidRoles: () => {
-    return [...VALID_ROLES]
-  },
-
-  // Validar datos adicionales según el rol
-  validateRoleData: (role, additionalData) => {
+  // Validar datos específicos por rol
+  validateRoleData: (role, data) => {
     if (!validators.isValidRole(role)) {
       return { valid: false, message: 'Rol no válido' }
     }
 
     switch (role.toLowerCase()) {
       case 'estudiante':
-        if (!additionalData.jornada) {
-          return { valid: false, message: 'La jornada es requerida para estudiantes' }
+        if (!data.jornada || !VALIDATION_CONFIG.VALID_JORNADAS.includes(data.jornada)) {
+          return { valid: false, message: 'Jornada no válida (debe ser 1 o 2)' }
         }
         break
+      
+      case 'representante':
+        // Validaciones específicas para representante si las hay
+        break
+      
       case 'profesor':
-        if (!additionalData.especialidad) {
-          return { valid: false, message: 'La especialidad es requerida para profesores' }
-        }
+        // Validaciones específicas para profesor si las hay
         break
-      default:
+      
+      case 'administrador':
+        // Validaciones específicas para administrador si las hay
         break
     }
+
     return { valid: true }
   }
 }

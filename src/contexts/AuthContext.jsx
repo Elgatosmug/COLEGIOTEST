@@ -1,6 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react'
-import { authService } from '../lib/authService'
-import { supabase } from '../lib/supabase'
+import { TEST_CONFIG } from '../lib/config.js'
 
 const AuthContext = createContext({})
 
@@ -10,70 +9,35 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
-    // Verificar sesión actual de Supabase Auth
-    const checkAuth = async () => {
-      try {
-        const { data: { session }, error } = await supabase.auth.getSession()
-        
-        if (error) {
-          console.error('Error al obtener sesión:', error)
-          setLoading(false)
-          return
-        }
-
-        if (session?.user) {
-          // Obtener información adicional del usuario
-          const userInfo = await authService.getUserInfo(session.user.id)
-          const userSession = {
-            id: session.user.id,
-            email: session.user.email,
-            ...userInfo
-          }
-          setUser(userSession)
-        }
-      } catch (error) {
-        console.error('Error al verificar autenticación:', error)
-      } finally {
-        setLoading(false)
-      }
-    }
-    
-    checkAuth()
-
-    // Escuchar cambios en la autenticación
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      async (event, session) => {
-        if (event === 'SIGNED_IN' && session?.user) {
-          const userInfo = await authService.getUserInfo(session.user.id)
-          const userSession = {
-            id: session.user.id,
-            email: session.user.email,
-            ...userInfo
-          }
-          setUser(userSession)
-        } else if (event === 'SIGNED_OUT') {
-          setUser(null)
-        }
-        setLoading(false)
-      }
-    )
-
-    return () => subscription.unsubscribe()
-  }, [])
+  // Usar configuración centralizada
+  const { MOCK_USERS, DEFAULT_PASSWORD, MOCK_DELAY } = TEST_CONFIG
 
   const signUp = async (email, password, username, cedula, role, additionalData = {}) => {
     try {
-      const { data, error } = await authService.signUp(email, password, username, cedula, role, additionalData)
+      // Simular delay de red
+      await new Promise(resolve => setTimeout(resolve, MOCK_DELAY))
       
-      if (error) {
-        return { error }
+      // Verificar si el usuario ya existe
+      if (MOCK_USERS[email]) {
+        return { error: { message: 'El usuario ya existe' } }
       }
+
+      // Crear nuevo usuario mock
+      const newUser = {
+        id: Date.now().toString(),
+        email,
+        username,
+        cedula,
+        role,
+        ...additionalData
+      }
+
+      // En un entorno real, aquí se guardaría en la base de datos
+      console.log('🔧 Mock: Usuario registrado:', newUser)
       
-      // El usuario se establecerá automáticamente a través del listener de auth state
-      return { data, error }
+      return { data: newUser, error: null }
     } catch (error) {
       return { error: { message: 'Error inesperado: ' + error.message } }
     }
@@ -81,14 +45,18 @@ export const AuthProvider = ({ children }) => {
 
   const signIn = async (email, password) => {
     try {
-      const { data, error } = await authService.signIn(email, password)
+      // Simular delay de red
+      await new Promise(resolve => setTimeout(resolve, MOCK_DELAY))
       
-      if (error) {
-        return { error }
+      // Verificar credenciales mock
+      if (MOCK_USERS[email] && password === DEFAULT_PASSWORD) {
+        const userSession = MOCK_USERS[email]
+        setUser(userSession)
+        console.log('🔧 Mock: Usuario autenticado:', userSession)
+        return { data: userSession, error: null }
+      } else {
+        return { error: { message: 'Credenciales inválidas' } }
       }
-      
-      // El usuario se establecerá automáticamente a través del listener de auth state
-      return { data, error }
     } catch (error) {
       return { error: { message: 'Error inesperado: ' + error.message } }
     }
@@ -96,13 +64,11 @@ export const AuthProvider = ({ children }) => {
 
   const signOut = async () => {
     try {
-      const { error } = await authService.signOut()
+      // Simular delay de red
+      await new Promise(resolve => setTimeout(resolve, MOCK_DELAY / 2))
       
-      if (error) {
-        return { error }
-      }
-      
-      // El usuario se limpiará automáticamente a través del listener de auth state
+      setUser(null)
+      console.log('🔧 Mock: Usuario desconectado')
       return { error: null }
     } catch (error) {
       return { error: { message: 'Error al cerrar sesión: ' + error.message } }
@@ -115,13 +81,11 @@ export const AuthProvider = ({ children }) => {
         return { error: { message: 'No hay usuario autenticado' } }
       }
 
-      const { data, error } = await authService.changePassword(newPassword)
+      // Simular delay de red
+      await new Promise(resolve => setTimeout(resolve, MOCK_DELAY))
       
-      if (error) {
-        return { error }
-      }
-      
-      return { data, error }
+      console.log('🔧 Mock: Contraseña cambiada para:', user.email)
+      return { data: { message: 'Contraseña cambiada exitosamente' }, error: null }
     } catch (error) {
       return { error: { message: 'Error inesperado: ' + error.message } }
     }
@@ -129,34 +93,43 @@ export const AuthProvider = ({ children }) => {
 
   const resetPassword = async (email) => {
     try {
-      const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: `${window.location.origin}/reset-password`
-      })
+      // Simular delay de red
+      await new Promise(resolve => setTimeout(resolve, MOCK_DELAY))
       
-      if (error) {
-        return { error }
-      }
-      
-      return { 
-        data: { 
-          message: 'Se ha enviado un enlace de recuperación a tu correo electrónico' 
-        } 
+      // Verificar si el email existe
+      if (MOCK_USERS[email]) {
+        console.log('🔧 Mock: Email de recuperación enviado a:', email)
+        return { 
+          data: { 
+            message: 'Se ha enviado un enlace de recuperación a tu correo electrónico' 
+          },
+          error: null
+        }
+      } else {
+        return { error: { message: 'No se encontró una cuenta con ese email' } }
       }
     } catch (error) {
       return { error: { message: 'Error al enviar correo de recuperación' } }
     }
   }
 
-  // Función para iniciar sesión con Google
   const signInWithGoogle = async () => {
     try {
-      const { data, error } = await authService.signInWithGoogle()
+      // Simular delay de red
+      await new Promise(resolve => setTimeout(resolve, MOCK_DELAY * 1.5))
       
-      if (error) {
-        return { error }
+      // Usuario mock de Google
+      const googleUser = {
+        id: 'google-1',
+        email: 'google@test.com',
+        username: 'Usuario Google',
+        cedula: '0991435004',
+        role: 'estudiante'
       }
       
-      return { data, error: null }
+      setUser(googleUser)
+      console.log('🔧 Mock: Usuario autenticado con Google:', googleUser)
+      return { data: googleUser, error: null }
     } catch (error) {
       return { error: { message: 'Error inesperado: ' + error.message } }
     }

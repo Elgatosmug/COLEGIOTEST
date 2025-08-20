@@ -7,6 +7,7 @@ Sistema de gestión deportiva para la Unidad Educativa Fiscal Ismael Perez Pazmi
 ## 🚀 Características Principales
 
 ### 🔐 **Autenticación Segura**
+
 - ✅ Login/Registro con validaciones robustas
 - ✅ Recuperación de contraseñas por email
 - ✅ Validación de cédula ecuatoriana
@@ -14,12 +15,14 @@ Sistema de gestión deportiva para la Unidad Educativa Fiscal Ismael Perez Pazmi
 - ✅ Protección contra SQL Injection y XSS
 
 ### 👥 **Gestión de Roles**
+
 - **Estudiante**: Acceso a deportes y jornadas
 - **Representante**: Gestión de estudiantes
 - **Profesor**: Acceso a especialidades
 - **Administrador**: Control total del sistema
 
 ### 🛡️ **Seguridad Avanzada**
+
 - Arquitectura sin secrets en frontend
 - JWT manejado por Supabase Auth
 - Mensajes de error genéricos
@@ -44,13 +47,16 @@ cp .env.example .env
 ## 🔧 Configuración
 
 ### Variables de Entorno (.env)
+
 ```env
 VITE_SUPABASE_URL=tu_url_de_supabase
 VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY=tu_clave_publica_de_supabase
 ```
 
 ### Configuración de Supabase
+
 1. **Authentication > Settings > URL Configuration**:
+
    ```
    Site URL: http://localhost:5173
    Redirect URLs: http://localhost:5173/reset-password
@@ -62,6 +68,7 @@ VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY=tu_clave_publica_de_supabase
 ## 🚀 Comandos Disponibles
 
 ### Desarrollo
+
 ```bash
 # Iniciar servidor de desarrollo
 npm run dev
@@ -74,6 +81,7 @@ npm run preview
 ```
 
 ### Testing
+
 ```bash
 # Ejecutar pruebas de validadores
 npm test
@@ -83,6 +91,7 @@ npm run test:validators
 ```
 
 ### Linting
+
 ```bash
 # Verificar código
 npm run lint
@@ -100,6 +109,7 @@ El sistema incluye pruebas automatizadas para validar:
 - ✅ **Validación de datos** específicos por rol
 
 ### Ejecutar Pruebas
+
 ```bash
 npm test
 ```
@@ -107,6 +117,7 @@ npm test
 ## 🔐 Funcionalidad "Olvidé mi Contraseña"
 
 ### Flujo de Uso:
+
 1. **Usuario hace clic** en "¿Olvidaste tu contraseña?"
 2. **Ingresa su email** en el formulario de recuperación
 3. **Recibe correo** con enlace de restablecimiento
@@ -115,6 +126,7 @@ npm test
 6. **Es redirigido** automáticamente al login
 
 ### Características de Seguridad:
+
 - Enlaces temporales que expiran automáticamente
 - Validación de tokens de acceso y refresh
 - Mensajes genéricos para evitar ataques de enumeración
@@ -154,12 +166,14 @@ mi-proyecto/
 ## 🛡️ Arquitectura de Seguridad
 
 ### Frontend (Cliente)
+
 - ✅ Validaciones de entrada
 - ✅ Sanitización de datos
 - ✅ Interfaz de usuario
 - ✅ Sin secrets expuestos
 
 ### Backend (Supabase)
+
 - ✅ Autenticación JWT
 - ✅ Hash de contraseñas
 - ✅ Rate limiting
@@ -170,21 +184,25 @@ mi-proyecto/
 ### Problemas Comunes
 
 #### **1. Error de conexión a Supabase**
+
 - Verificar variables de entorno en `.env`
 - Comprobar credenciales en Supabase Dashboard
 - Verificar conectividad de red
 
 #### **2. Error en recuperación de contraseña**
+
 - Verificar configuración de URLs en Supabase
 - Comprobar plantillas de correo
 - Revisar logs de Supabase
 
 #### **3. Error de validación**
+
 - Ejecutar `npm test` para verificar validadores
 - Revisar requisitos de contraseña
 - Comprobar formato de cédula
 
 ### Logs Útiles
+
 ```bash
 # Verificar configuración
 npm test

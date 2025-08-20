@@ -4,9 +4,7 @@ import Footer from './Footer'
 
 export function Inscripciones() {
     return (
-        <div className="min-h-screen flex flex-col">
-            <Header />
-            <main className="font-sans flex flex-col items-center justify-center bg-gray-100 p-5 rounded-lg min-h-screen">
+        <div className="font-sans flex flex-col items-center justify-center bg-gray-100 p-5 rounded-lg">
                 <center>
                     <h1 className="text-lg font-bold">VALORES QUE RIGEN PARA EL AÑO 2025</h1>
                 </center>
@@ -83,8 +81,6 @@ export function Inscripciones() {
                     <h2 className="mb-4 text-lg font-bold"> NOTA IMPORTANTE:</h2>
                     <h2 className="text-lg font-bold">*UNIDADES EDUCATIVAS FISCALES, PAGARÁN EL 50% DE LOS VALORES DE PARTICIPACIÓN</h2>
                 </aside>
-            </main>
-            <Footer />
         </div>
     )
 }

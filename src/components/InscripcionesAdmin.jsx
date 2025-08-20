@@ -24,9 +24,7 @@ export function InscripcionesAdmin() {
     } = useTextoEditable();
 
     return (
-        <div className="min-h-screen flex flex-col">
-            <Header />
-            <main className="font-sans flex flex-col items-center justify-center bg-gray-100 p-5 rounded-lg min-h-screen">
+        <div className="font-sans flex flex-col items-center justify-center bg-gray-100 p-5 rounded-lg">
                 <center>
                     <h1 className="text-lg font-bold">VALORES QUE RIGEN PARA EL AÑO 2025</h1>
                 </center>
@@ -60,9 +58,6 @@ export function InscripcionesAdmin() {
                     setModalNotaImportante={setModalNotaImportante}
                     actualizarNotaImportante={actualizarNotaImportante}
                 />
-            </main>
-
-            <Footer />
         </div>
     )
 }

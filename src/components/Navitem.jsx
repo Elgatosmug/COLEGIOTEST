@@ -1,8 +1,10 @@
 import { useState, useRef } from 'react';
+import Header from './Header';
+import Footer from './Footer';
 {/* ajustar los links con las rotas de app routes */}
 const navItems = [
   { label: 'Inicio', href: '/' },
-  { label: 'Deportes', href: '/deportes' },
+  { label: 'Deportes', href: '/deportesadmi' },
   { label: 'Inscripciones', href: '/inscripciones' },
 ];
 
@@ -31,7 +33,8 @@ const Navitem = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 p-8">
+    
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 p-8">
       <nav 
         ref={navRef}
         className="relative bg-nav-bg rounded-full p-1.5 shadow-2xl backdrop-blur-sm border border-white/20"
