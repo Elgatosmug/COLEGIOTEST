@@ -24,9 +24,9 @@ export function InscripcionesAdmin() {
     } = useTextoEditable();
 
     return (
-        <div className="font-sans flex flex-col items-center justify-center bg-gray-100 p-5 rounded-lg">
+        <div className="font-sans flex flex-col items-center justify-center bg-gray-100 p-3 md:p-5 rounded-lg">
                 <center>
-                    <h1 className="text-lg font-bold mb-6 underline">VALORES QUE RIGEN PARA EL AÑO 2025</h1>
+                    <h1 className="text-base md:text-lg font-bold mb-4 md:mb-6 underline text-center px-2">VALORES QUE RIGEN PARA EL AÑO 2025</h1>
                 </center>
                 
                 {/* Sección de Precios */}
